@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --dev @nomiclabs/hardhat-etherscan
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Users\ALFA\AppData\Local\Microsoft\WindowsApps;C:\Users\ALFA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\6.0\bin;;C:\Users\ALFA\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\ALFA\AppData\Local\Programs\mongosh\;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Users\ALFA\AppData\Local\Yarn\bin;C:\Users\ALFA\AppData\Roaming\npm
+
+Yarn version: 
+  1.23.0-20200615.1913
+
+Node version: 
+  20.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\ALFA\Desktop\solidty-folder\hardhart-simple-storage\node_modules\@nomicfoundation\solidity-analyzer-win32-x64-msvc\solidity-analyzer.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "hardhart-simple-storage",
+    "version": "1.0.0",
+    "license": "MIT",
+    "devDependencies": {
+      "hardhat": "^2.19.4"
+    },
+    "dependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.2.3",
+      "@nomiclabs/hardhat-waffle": "^2.0.6",
+      "chai": "^4.4.1",
+      "dotenv": "^16.4.1",
+      "ethereum-waffle": "^3.4.4",
+      "ethers": "^5.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
